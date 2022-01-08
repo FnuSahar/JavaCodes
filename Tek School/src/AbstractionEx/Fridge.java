@@ -33,6 +33,11 @@ public abstract class Fridge {
 	public void setName(String name) {
 		this.name = name;
 	}
+	
+	public interface AccountGeneralMethods {
+
+	public boolean withdrwa(double amount);
+	public boolean deposit(double amount);
 
 	public int getAge() {
 		return age;
