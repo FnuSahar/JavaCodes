@@ -36,8 +36,7 @@ public abstract class Fridge {
 	
 	public interface AccountGeneralMethods {
 
-	public boolean withdrwa(double amount);
-	public boolean deposit(double amount);
+	
 
 	public int getAge() {
 		return age;
@@ -47,4 +46,4 @@ public abstract class Fridge {
 		this.age = age;
 	}
 
-}
+	}
